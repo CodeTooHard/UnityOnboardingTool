@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af98875612e9feb41a71efb7c4365cf0, type: 3}
+  m_Name: MovingObjectsData
+  m_EditorClassIdentifier: 
+  module: 0
+  validationType: 0
+  title: 
+  mainText: 'When you select a game object in the scene view, notice that some arrows
+    appear around the object. These arrows represent your x, y and z axis. If you
+    are looking at your object from the front, the axis represent:
+
+
+    X-Axis:
+    Left-Right Movement
+
+    Y-Axis: Up-Down Movement
+
+    Z-Axis: Forward-Backward
+    Movement
+
+
+    To move an object, click on it so the arrows appear and then you
+    will be able to drag an arrow to move the object. Lets try moving each arrow
+    on our cube so that each axis has been moved to a new location!'
+  helpImage: {fileID: 2800000, guid: 918b4de6d8d23684d8d435ad478edeb4, type: 3}
+  location:
+    serializedVersion: 2
+    x: 964
+    y: 560
+    width: 550
+    height: 350
+  thisPopUpType: MovingObjectsPopUp
+  nextPopUpDataPath: Scripts/Editor/PopUps/ScriptableObjects/Scene/RotatingObjectsData
+  NextPopUpType: RotatingObjectsPopUp
+  isSkippable: 0

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af98875612e9feb41a71efb7c4365cf0, type: 3}
+  m_Name: ComponentLookUpData
+  m_EditorClassIdentifier: 
+  module: 0
+  validationType: 0
+  title: Checking Components
+  mainText: "Game objects are essentially empty buckets that hold components. All
+    of the objects in your hierarchy are just constructed of multiple differen't
+    components that allow them to perform there functionality. Using the inspector
+    we can see what components are on an object and even edit some of the fields.
+    Lets go through our cube's components as an example so you can get a feel for
+    hour gameobjects are built up from components.\n\nWe can see here our cube has
+    a few components: \n- The Transform components stores information about the size,
+    location and rotation of the cube.\n- To determine how are cube is constructed,
+    we use a Mesh Filter which in simple terms just stores a mesh that determines
+    how the shape of the object will be constructed, this is what gives us that cube
+    shape. \n- The Mesh Renderer component is responsible for drawing the mesh on
+    the screen. \n- The Box Collider allows the object to be registered for physics
+    collisions with other objects.\n- The Material components controls the color
+    of the cube.\n\nGiven the above, we can see an example of how a gameobject is
+    really just a series of different components and it's actually the components
+    that determine what a gameobject is and what a gameobject does."
+  helpImage: {fileID: 2800000, guid: d9e0c58efd4b7274bbd4329f55c67ba7, type: 3}
+  location:
+    serializedVersion: 2
+    x: 1890
+    y: 835
+    width: 510
+    height: 480
+  thisPopUpType: GenericPopUp
+  nextPopUpDataPath: Scripts/Editor/PopUps/ScriptableObjects/Inspector/AddComponentsData
+  NextPopUpType: AddComponentsPopUp
+  isSkippable: 1

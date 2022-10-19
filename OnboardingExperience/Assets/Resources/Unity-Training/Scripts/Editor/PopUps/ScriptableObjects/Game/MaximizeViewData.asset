@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af98875612e9feb41a71efb7c4365cf0, type: 3}
+  m_Name: MaximizeViewData
+  m_EditorClassIdentifier: 
+  module: 0
+  validationType: 0
+  title: 
+  mainText: You can enable the "Maximize On Play" button to allow the game view to
+    extend to fullscreen mode when you play the build. Clicking this button will
+    cause it to highlight letting you know it is enabled. To manually, maximize your
+    view right click on the "Game" tab and click "Maximize".
+  helpImage: {fileID: 2800000, guid: 211a591669f2a6f49bf51eaa0aae31ad, type: 3}
+  location:
+    serializedVersion: 2
+    x: 1635
+    y: 124
+    width: 380
+    height: 250
+  thisPopUpType: GenericPopUp
+  nextPopUpDataPath: Scripts/Editor/PopUps/ScriptableObjects/Game/GameControlsData
+  NextPopUpType: GenericPopUp
+  isSkippable: 1

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af98875612e9feb41a71efb7c4365cf0, type: 3}
+  m_Name: ParentingData
+  m_EditorClassIdentifier: 
+  module: 0
+  validationType: 0
+  title: Creating Parented Objects
+  mainText: "In the Hierarchy, you can also drag objects on top of other objects
+    to make nested or parented objects. Much like how you would drag a file into
+    a folder on your desktop. You can use this to organize the Hierarchy in the same
+    way as a folder by dragging objects onto a parent and then clicking the down
+    arrow to minimize the list of objects. Certain transformations done to a parent
+    object like scale and movement will often be shared to it's children. We will
+    learn how to manipulate objects later, for now, making the \"Main Camera\" a
+    parented object by dragging all of the other objects in the Hierarchy onto the
+    Main Camera. \n\nHint: When you click the down arrow next to \"Main Camera\"
+    to close the list, you should ONLY see the Main Camera in the Hierarchy. You
+    should have 3 objects under the Main Camera in this way. Your renamed object,
+    the cube and the directional light."
+  helpImage: {fileID: 2800000, guid: a67468428365c484e85e0afa379f8c26, type: 3}
+  location:
+    serializedVersion: 2
+    x: 250
+    y: 50
+    width: 250
+    height: 600
+  thisPopUpType: ParentingPopUp
+  nextPopUpDataPath: Scripts/Editor/PopUps/ScriptableObjects/Hierarchy/HierarchySearchData
+  NextPopUpType: GenericPopUp
+  isSkippable: 0

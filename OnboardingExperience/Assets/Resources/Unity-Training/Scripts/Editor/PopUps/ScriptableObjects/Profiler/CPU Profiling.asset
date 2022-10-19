@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af98875612e9feb41a71efb7c4365cf0, type: 3}
+  m_Name: CPU Profiling
+  m_EditorClassIdentifier: 
+  module: 0
+  validationType: 0
+  title: 
+  mainText: "Now you can see colored waves have populated in the profiler. These
+    waves in the CPU Usage category represent the current FPS and response time of
+    the application. By clicking on any part of the waves, you can view the program
+    at a specific point. Try clicking on one of the spikes of the waves where the
+    FPS dropped.\n\nA white bar will appear where you cliked and mark the location
+    we are looking at now. Now lets look at the overview window at the bottom of
+    the profiler. We can see there is a \"PlayerLoop\". These are all the actions
+    being executed in our application in the Play Mode (when we press the play button).
+    Now click the right-facing arrow to extend this list.\n\nHere we can see a list
+    of events that are marked by Unity to be profiled or scanned. We can see how
+    much time each action took to execute and how much of our CPU Usage is coming
+    from which action. \n\nHowever, if we want to see profiling data from ALL of
+    our scripts. We need to do one more step called Deep Profiling.\n\nBut first,
+    let's save our current snapshot so we can view it later. Click the save button
+    in the upper right hand corner and save the file to the default location it brings
+    you to."
+  helpImage: {fileID: 0}
+  location:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 450
+  thisPopUpType: CPUProfiling
+  nextPopUpDataPath: 
+  NextPopUpType: 
+  isSkippable: 1

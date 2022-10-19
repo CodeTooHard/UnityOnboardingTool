@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af98875612e9feb41a71efb7c4365cf0, type: 3}
+  m_Name: PackageMOverview
+  m_EditorClassIdentifier: 
+  module: 0
+  validationType: 0
+  title: Package Manager Overview
+  mainText: "The Package Manager window displays:\r\n\r\n(A) The experimental package
+    indicator, which warns you if your project contains experimental packages.\r\n\r\n(B)
+    The add  button, which you can click to install a package directly into your
+    project by entering a git URL, a local path, or a package name.\r\n\r\n(C) The
+    Packages drop-down menu, which you can use to change what appears in the list
+    (context).\r\n\r\n(D) The Sort drop-down menu, which lets you sort the list of
+    packages and feature sets by name or date.\r\n\r\n(E) Advanced settings , which
+    you can use to access the project settings\r\n for the Package Manager or reset
+    your project\u2019s packages and feature sets to default.\r\n\r\n(F) The search
+    box, which you can use to look for packages and feature sets by name.\r\n\r\n(G)
+    The list view, which displays all packages that match the filter and search parameters
+    you specify.\r\n\r\n(H) The detail view, which displays information specific
+    to the feature set or package\r\n selected in the list. For example, if a feature
+    set is selected, the information specific to the feature set appears, including
+    which packages it contains.\r\n\r\n(I) The status bar, which displays information
+    when Package Manager loads packages and feature sets. This includes errors and
+    warning messages, the number of Asset Store packages available, and a link to
+    load more Asset Store packages.\r\n\r\n(J) The reload  drop-down menu, which
+    lets you force Package Manager to reload or resolve the packages in your project.\r"
+  helpImage: {fileID: 2800000, guid: 7b63d139d0164904ca625d671d512b02, type: 3}
+  location:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 900
+    height: 1000
+  thisPopUpType: GenericPopUp
+  isSkippable: 1

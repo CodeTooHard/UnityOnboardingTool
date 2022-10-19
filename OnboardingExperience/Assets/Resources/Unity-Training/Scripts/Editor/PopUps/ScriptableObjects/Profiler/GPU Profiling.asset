@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af98875612e9feb41a71efb7c4365cf0, type: 3}
+  m_Name: GPU Profiling
+  m_EditorClassIdentifier: 
+  module: 0
+  validationType: 0
+  title: 
+  mainText: "GPU profiling is very similar to CPU profiling with one caveat, profiling
+    the GPU has performance overhead costs so it is disabled by default. If you are
+    currently collecting other performance data you don't want to have GPU profiling
+    enabled at the same time. Only collect GPU data when you are only looking at
+    GPU data. \n\nTo enable the GPU Usage module, we go to the \"profiler modules\"
+    tab and click the down arrow to the right. We then want to checkmark the \"GPU
+    Usage\" module. Once GPU usage is enabled we can record data just like we did
+    in the previous methods. Go ahead and collect another profiling sample recording.\n\n1.
+    Enable the GPU Usage module\n2. Enable deep profile.\n2. Click the white circle
+    recording button to begin recording.\n3. Click the play button above game view
+    to start a recording.\n\nNow that you have a recording sample with GPU usage
+    on, click anywhere on the data so we can see the data like we did with CPU usage.
+    Let's look to the overview window for more details. In the GPU Usage window we
+    have some different metrics to track and record for performance. In this module
+    we get to know how much each script used of our GPU, how many times the GPU is
+    called on to make a draw, and the time it took the GPU to execute each draw.
+    When we run into a GPU bottle neck we want to collect all of this data for our
+    highest usage scripts under the Player Loop."
+  helpImage: {fileID: 0}
+  location:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 350
+    height: 550
+  thisPopUpType: GenericPopUp
+  nextPopUpDataPath: 
+  NextPopUpType: 
+  isSkippable: 1

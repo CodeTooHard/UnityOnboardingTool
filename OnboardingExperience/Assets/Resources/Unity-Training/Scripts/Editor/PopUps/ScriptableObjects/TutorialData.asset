@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af98875612e9feb41a71efb7c4365cf0, type: 3}
+  m_Name: TutorialData
+  m_EditorClassIdentifier: 
+  module: 0
+  validationType: 0
+  templateList: []
+  templateArray: []
+  title: Unity Solutions Tutorial
+  mainText: 'Welcome to the Unity3D Tutorial by Larry Wells! Working through this
+    program you are going to learn the basics about how to manuever around the Unity
+    editor and manipulate basic functions. Press continue to begin!
+
+
+    Note: This
+    tutorial assumes you are a new user and therefore have the default Unity interface
+    layout.'
+  helpImage: {fileID: 2800000, guid: e9fb0dfea4a42e04fb28ca980bb2e69b, type: 3}
+  location:
+    serializedVersion: 2
+    x: 850
+    y: 350
+    width: 350
+    height: 275
+  thisPopUpType: TutorialStart
+  nextPopUpDataPath: Scripts/Editor/PopUps/ScriptableObjects/Hierarchy/HierarchyData
+  NextPopUpType: HierarchyPopUp
+  isSkippable: 1

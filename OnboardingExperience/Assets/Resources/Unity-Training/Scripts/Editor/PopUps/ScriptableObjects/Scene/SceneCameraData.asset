@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af98875612e9feb41a71efb7c4365cf0, type: 3}
+  m_Name: SceneCameraData
+  m_EditorClassIdentifier: 
+  module: 0
+  validationType: 0
+  title: 
+  mainText: "Sometimes you may want to change how your camera works in the scene
+    view so you can navigate around your level easier. To access the scene camera
+    settings you can click the camera icon to the left of \"Gizmos\" above this window.
+    The first group of settings controls how things are rendered by the scene camera.
+    The second group of settings controls how the camera moves around in the scene.
+    These settings have no effect on the in-game camera game objects and only impact
+    the scene cameras.\n\n- Field of View: This setting changes the height of the
+    camera's view angle.\n- Dynamic Clipping: \n- Occlusion Culling: This setting
+    when enabled will not render objects outside of the camera's view angle. This
+    can save performance in Editor mode when you have a very large scene.\n\n- Camera
+    Easing: Easing creates smooth motion when the camera starts moving and stops
+    moving. This motion allows the camera to smoothly come up to max speed and slow
+    down to a halt.\n- Camera Acceleration: When acceleration is applied, the camera
+    is allowed to gain speed during movement allowing for quick navigation across
+    large areas.\n- Camera Speed: This is the current speed of the scene camera."
+  helpImage: {fileID: 2800000, guid: bfa9eb8f1f9296148975ad535cc5d224, type: 3}
+  location:
+    serializedVersion: 2
+    x: 1440
+    y: 116
+    width: 500
+    height: 375
+  thisPopUpType: GenericPopUp
+  nextPopUpDataPath: Scripts/Editor/PopUps/ScriptableObjects/Game/GameTransitionData
+  NextPopUpType: GenericPopUp
+  isSkippable: 1

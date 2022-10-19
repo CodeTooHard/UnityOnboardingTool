@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/Scenes/BugLand/BugLand.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0

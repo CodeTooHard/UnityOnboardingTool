@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af98875612e9feb41a71efb7c4365cf0, type: 3}
+  m_Name: ScenePerspectivesData
+  m_EditorClassIdentifier: 
+  module: 0
+  validationType: 0
+  title: 
+  mainText: 'Another tool that we can use to navigate around our scene is the perspective
+    compass. This is the sphere and cone shaped tool in the upper right hand corner
+    of the scene view. Click on the different shapes and faces of the compass allows
+    you to see your scene from specific views. This can be useful to test that your
+    scene looks correct from all viewable angles.
+
+
+    Take a second to play around
+    with the different views then continue when ready.'
+  helpImage: {fileID: 2800000, guid: 5a2908a2d840445429adab7eda3cfeea, type: 3}
+  location:
+    serializedVersion: 2
+    x: 250
+    y: 250
+    width: 0
+    height: 0
+  thisPopUpType: GenericPopUp
+  nextPopUpDataPath: Scripts/Editor/PopUps/ScriptableObjects/Scene/2D3DData
+  NextPopUpType: GenericPopUp
+  isSkippable: 1

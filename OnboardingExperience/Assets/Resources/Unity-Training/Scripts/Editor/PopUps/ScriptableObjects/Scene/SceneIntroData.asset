@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af98875612e9feb41a71efb7c4365cf0, type: 3}
+  m_Name: SceneIntroData
+  m_EditorClassIdentifier: 
+  module: 0
+  validationType: 0
+  title: Look Upon Thy Scene
+  mainText: The scene view is where we can see how gameobjects are placed into our
+    game or application. The scene view represents a 3D space that the user will
+    be navigating around. We can see each time we create or add an object in the
+    hierarchy, that object is created in our scene. Look! There is our cube in the
+    scene window to the right. The sun symbol is the directional light and the camera
+    symbol is the main camera. We can't see the first gameobject we created because
+    it is an empty gameobject. This means it only has a transform components so it
+    doesn't have any components that allows it to render for us. Like we discussed
+    earlier in this tutorial, game objects have to be built up from components or
+    they will just be empty invisible buckets.
+  helpImage: {fileID: 0}
+  location:
+    serializedVersion: 2
+    x: 487
+    y: 116
+    width: 500
+    height: 265
+  thisPopUpType: GenericPopUp
+  nextPopUpDataPath: Scripts/Editor/PopUps/ScriptableObjects/Scene/ObjectSelectionData
+  NextPopUpType: GenericPopUp
+  isSkippable: 1

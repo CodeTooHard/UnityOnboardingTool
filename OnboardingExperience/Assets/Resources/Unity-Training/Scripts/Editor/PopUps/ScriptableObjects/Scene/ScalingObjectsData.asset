@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af98875612e9feb41a71efb7c4365cf0, type: 3}
+  m_Name: ScalingObjectsData
+  m_EditorClassIdentifier: 
+  module: 0
+  validationType: 0
+  title: 
+  mainText: "Lastly, you can also scale gameobjects so that they are different sizes.
+    To switch to scaling mode, press the 'R' key while selecting the intended gameobject.
+    The arrows will then turn into square boxes that can be dragged to scale your
+    object. \n\nLet's try scaling your cube to be even bigger! Press 'R' and draw
+    the squares outward to make it bigger!"
+  helpImage: {fileID: 2800000, guid: bebe2abdde20e0f44bdbf7f285bed5d8, type: 3}
+  location:
+    serializedVersion: 2
+    x: 964
+    y: 560
+    width: 400
+    height: 225
+  thisPopUpType: ScalingObjectsPopUp
+  nextPopUpDataPath: Scripts/Editor/PopUps/ScriptableObjects/Scene/ScenePerspectivesData
+  NextPopUpType: ScalingObjectsPopUp
+  isSkippable: 0

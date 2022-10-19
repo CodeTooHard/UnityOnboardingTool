@@ -21,7 +21,7 @@
 
 # Visual Studio cache directory
 .vs/
-
+OnboardingExperience\Library\PackageCache\com.unity.burst@1.6.0\*
 # Gradle cache directory
 .gradle/
 

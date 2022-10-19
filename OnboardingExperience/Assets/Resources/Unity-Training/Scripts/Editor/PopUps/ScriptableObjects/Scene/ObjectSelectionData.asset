@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af98875612e9feb41a71efb7c4365cf0, type: 3}
+  m_Name: ObjectSelectionData
+  m_EditorClassIdentifier: 
+  module: 0
+  validationType: 3
+  title: Pick an object
+  mainText: Just like with the hierarchy we can use the scene view to select objects
+    too! To select an object on the scene view, you can left click directly on the
+    object you want to select. Additionally, if you press the 'F' key while you are
+    selecting an object, it will zoom in on that object so you can see it better.
+    To remember this hotkey, you can think of the F standing for "Find" when in the
+    scene view.
+  helpImage: {fileID: 0}
+  location:
+    serializedVersion: 2
+    x: 487
+    y: 116
+    width: 509
+    height: 175
+  thisPopUpType: GenericPopUp
+  nextPopUpDataPath: Scripts/Editor/PopUps/ScriptableObjects/Scene/MovingObjectsData
+  NextPopUpType: MovingObjectsPopUp
+  isSkippable: 1

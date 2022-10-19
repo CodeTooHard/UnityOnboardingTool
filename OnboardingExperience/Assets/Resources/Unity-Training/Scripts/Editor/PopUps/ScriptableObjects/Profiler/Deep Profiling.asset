@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af98875612e9feb41a71efb7c4365cf0, type: 3}
+  m_Name: Deep Profiling
+  m_EditorClassIdentifier: 
+  module: 0
+  validationType: 0
+  title: 
+  mainText: 'To enabled deep profiling we must first click on the "deep profile"
+    tab on the top of the Profiler. Once this is enabled your scripts may refresh
+    so don''t be alarmed. You know this option is enabled because it will be highlighted
+    with a light gray. After deep profile is enabled, you can press record and play
+    to get another scan.
+
+
+    So what is Deep Profiling? Deep Profiling checks every
+    script that is executing on the application at runtime instead of just the scripts
+    that are specifically marked for profiling. This allows you to get more accurate
+    data from the profiler about where your CPU usage is going.
+
+
+    Note: Deep
+    Profiling does add small overhead to builds with this enabled.'
+  helpImage: {fileID: 0}
+  location:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 325
+  thisPopUpType: GenericPopUp
+  nextPopUpDataPath: 
+  NextPopUpType: 
+  isSkippable: 1

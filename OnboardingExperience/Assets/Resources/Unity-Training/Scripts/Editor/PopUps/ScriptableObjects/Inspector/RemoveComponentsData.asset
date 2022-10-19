@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af98875612e9feb41a71efb7c4365cf0, type: 3}
+  m_Name: RemoveComponentsData
+  m_EditorClassIdentifier: 
+  module: 0
+  validationType: 0
+  title: Get Rid Of This Component!
+  mainText: 'Let''s say you have a component on a gameobject causing issues for you.
+    There are two ways to go about getting the component out of your way. Disabling
+    or Removing.
+
+
+    First, disabling a component keeps the component on the gameobject
+    but makes it inactive so that the component is not actively running. This makes
+    it act like the component is deleted but it can be toggled back on when needed.
+    To disable a component, you click the checkmark toggle box OFF that is to the
+    left of the components name in the inspector.
+
+
+    Second, to permanently disable
+    a component we can just delete it. To delete a component there are two ways.
+    One way, you can right click on the component name and select "Remove Component".
+    The other way is to click the 3 dots on the right side of the components window
+    across from it''s name and select "Remove Component".
+
+
+    Let''s try removing
+    that Rigidbody component you added to your cube!'
+  helpImage: {fileID: 2800000, guid: 5467a83dbd07756418de24fa4e61526c, type: 3}
+  location:
+    serializedVersion: 2
+    x: 1955
+    y: 815
+    width: 540
+    height: 340
+  thisPopUpType: RemoveComponentsPopUp
+  nextPopUpDataPath: Scripts/Editor/PopUps/ScriptableObjects/Inspector/ModifyingComponentsData
+  NextPopUpType: ModifyingComponentsPopUp
+  isSkippable: 0

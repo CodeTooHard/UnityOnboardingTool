@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af98875612e9feb41a71efb7c4365cf0, type: 3}
+  m_Name: AddComponentsData
+  m_EditorClassIdentifier: 
+  module: 0
+  validationType: 0
+  title: More More More Components!
+  mainText: 'Now that we have a feel for what components are, we need to know how
+    to add them. Adding components to a gameobject allows you to further customize
+    what that gameobject does. For example, if we want our object to respond and
+    work with the Physics engine, we can add a rigidbody to customize how this objects
+    will respond to physics interactions. To add a component, we have to:
+
+
+    1.
+    Select the target gameobject
+
+    2. In the inspector, go to the bottom and click
+    add component.
+
+    3. Search for the component you need with the text box.
+
+    4.
+    Double click on the component to add the component.
+
+
+    Let''s try those steps
+    on your Cube and add a Rigidbody component to the Cube.'
+  helpImage: {fileID: 2800000, guid: 93fda90ebc79b6c4fb872086eadb67f7, type: 3}
+  location:
+    serializedVersion: 2
+    x: 2035
+    y: 840
+    width: 320
+    height: 400
+  thisPopUpType: AddComponentsPopUp
+  nextPopUpDataPath: Scripts/Editor/PopUps/ScriptableObjects/Inspector/RemoveComponentsData
+  NextPopUpType: RemoveComponentsPopUp
+  isSkippable: 0

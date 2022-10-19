@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcbfb54846f8a514d86a39ceec4be840, type: 3}
+  m_Name: FoutainQuest
+  m_EditorClassIdentifier: 
+  type: 0
+  title: Trouble At The Foutain
+  details: Hello there! I'm trying to get water out of the local foutain but something's
+    wrong! Everytime I use the foutain, the world around me starts to freeze and
+    act up! Could you please check it out for me? The foutain is to the left, you
+    can walk up to it and press E to activate the foutain. Maybe you could use some
+    sort of profiler tool to diagnose the issue?
+  helpTip: "The foutain is creating way too many gameobjects! This is causing a heavy
+    load on the CPU. You have to be careful about how many active objects are being
+    created at the same time and be mindful in order to reduce load on your system.
+    A method to reduce the performance cost of spawning so many gameobjects is object
+    pooling. In an object pool you don't need to constatly create brand new objects
+    and you just re-use objects that are already in the starting pool. Object Pooling
+    is a  design pattern that pre-instantiates all the objects you\u2019ll need at
+    any specific moment before gameplay. Suggest using an object pool to your team
+    if a similar issue arises in your project."
+  shortText: '- Turn on the foutain'
+  turnInText: '- Export a profiler recording and return to NPC to complete'
+  goalCount: 1
+  xp: 60
+  target: {fileID: 2740361140246620853, guid: f1e16ded43b42fc4eafde2992e9dba1b, type: 3}
+  isComplete: 0

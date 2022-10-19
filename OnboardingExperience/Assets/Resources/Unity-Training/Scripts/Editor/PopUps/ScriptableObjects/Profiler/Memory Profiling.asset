@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af98875612e9feb41a71efb7c4365cf0, type: 3}
+  m_Name: Memory Profiling
+  m_EditorClassIdentifier: 
+  module: 0
+  validationType: 0
+  title: 
+  mainText: 'Next we will take a look at the Memory Module. The memory module is
+    a bit different in that it doesn''t measure anything by script execution like
+    CPU or GPU usage. The memory profiler tells you how much memory you are reserving
+    on the system as well as how much memory you are actively using. To the right
+    of the overview window, it even tells you how much memory the Profiler itself
+    is using so you can factor that into your report.
+
+
+    It also breaks down what
+    components of the application are using how much memory as well as detailing
+    how many objects are active. If we are running into memory issues you will want
+    to document what portions of the application are using the most memory.
+
+
+    If
+    you are using an application with high object counts, the count metric can be
+    useful as it could denote that you should be using object pooling for your project.
+    That is a technique developers use to reduce the memory and rendering footprint
+    of applications with high object counts by using common references to create
+    many objects instead of creating new references for each object.
+
+
+    This becomes
+    especially important if you are testing on low memory devices. For example, the
+    base version of the Oculus Quest 2 only has 8gb of ram internally so it is very
+    important to manage your memory efficiently on that device.'
+  helpImage: {fileID: 0}
+  location:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 350
+    height: 650
+  thisPopUpType: GenericPopUp
+  nextPopUpDataPath: 
+  NextPopUpType: 
+  isSkippable: 1

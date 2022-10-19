@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcbfb54846f8a514d86a39ceec4be840, type: 3}
+  m_Name: SignQuest
+  m_EditorClassIdentifier: 
+  type: 0
+  title: My Sign!!!
+  details: Oh no! Something terrible has happened to my new sign! None of the text
+    fits right like it's supposed to. All that has changed is my screen got a little
+    bigger. Can you please take a look at the sign over there?
+  helpTip: When changing the screen size of a solution, the UI can break and become
+    off-scale from where it used to be. This is typically because the canvas of the
+    affected UI either is missing the Canvas Scaler component or that the Canvas
+    scaler is incorrectly set up. You can add a canvas scaler component to the SignUI
+    gameobject, select "scale with screen size" and then play with the x and y values
+    until the scaling looks correct to resolve this issue.
+  shortText: '- Interact with the sign'
+  turnInText: '- Add the canvas scaler component and return to NPC to complete'
+  goalCount: 1
+  xp: 60
+  target: {fileID: 1548651384249867480, guid: 149f9e32d0291ba4db8b3d0df2298866, type: 3}
+  isComplete: 0

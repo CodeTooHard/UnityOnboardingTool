@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d795f1d909327c94589c50fe55cd7c11, type: 3}
+  m_Name: TutorialManager
+  m_EditorClassIdentifier: 
+  Hierarchy:
+  - {fileID: 11400000, guid: 3e2565585e7c85644951619b4bd63508, type: 2}
+  - {fileID: 11400000, guid: dde7d0d847534304d930a390d6af299f, type: 2}
+  - {fileID: 11400000, guid: eabbd05b2cadfbb4ea00972f2eb83b55, type: 2}
+  - {fileID: 11400000, guid: 97cca57408b77324cb5a683ab107d949, type: 2}
+  - {fileID: 11400000, guid: f3c4201d40e4f8546a975d0fb35c0ed3, type: 2}
+  - {fileID: 11400000, guid: 9a776ac065556f14bacd93544c4fee61, type: 2}
+  Inspector:
+  - {fileID: 11400000, guid: 228f8e6896d0fe04eb65580de4e459d3, type: 2}
+  - {fileID: 11400000, guid: e788f057e8279ee48b15c52fdc65e978, type: 2}
+  - {fileID: 11400000, guid: 3cf088772ea83bb48958b65ea11483b3, type: 2}
+  - {fileID: 11400000, guid: f33e1e64a56c82a42a9d362f16484dd7, type: 2}
+  - {fileID: 11400000, guid: 61110aa3dac17eb4fb5ac194038a99f2, type: 2}
+  - {fileID: 11400000, guid: e1e848ccf1561594e9db9bcf5ed5d61b, type: 2}
+  Scene:
+  - {fileID: 11400000, guid: 51f333a3effc8414abd03ac24905e2b1, type: 2}
+  - {fileID: 11400000, guid: 9097fe8c680fa884a8c98d5a2cffac36, type: 2}
+  - {fileID: 11400000, guid: cbf9ca31d6d720045a0ba2ba109b18f9, type: 2}
+  - {fileID: 11400000, guid: aed7975953f246941b5643d63d53201d, type: 2}
+  - {fileID: 11400000, guid: f11e1094aa3d64742ae0394f0c4a1ff1, type: 2}
+  - {fileID: 11400000, guid: 37c92fbd7b011464f82d3e60ae0feb7e, type: 2}
+  - {fileID: 11400000, guid: ec224fdd00984c845a0e73cb4d307186, type: 2}
+  - {fileID: 11400000, guid: 4818773b832b4294f91b89cb280a9e80, type: 2}
+  - {fileID: 11400000, guid: edaae691fb96051408d9aed4f4959481, type: 2}
+  Game:
+  - {fileID: 11400000, guid: 5c5df19b671926d42b7c3871e5851e54, type: 2}
+  - {fileID: 11400000, guid: 380a87a6545d0584194b9883740a48ab, type: 2}
+  - {fileID: 11400000, guid: 438d344cd6b75354b9bc2adc66042ce3, type: 2}
+  - {fileID: 11400000, guid: 03684ab7c9ca1a14f9d550794791853a, type: 2}
+  - {fileID: 11400000, guid: be51ea220cb97b94f855ff2aaf4211fa, type: 2}
+  Build:
+  - {fileID: 11400000, guid: c04cea4b5c3c6a74d8df749a7a19d6db, type: 2}
+  - {fileID: 11400000, guid: 44d841af4f2846c4897b409cf8b48e09, type: 2}
+  PackageManager:
+  - {fileID: 11400000, guid: 070e9d48e2e20b6478115ac64ab62b47, type: 2}
+  - {fileID: 11400000, guid: ec6b1eb8d288a8441b2f1d7153c3b6fa, type: 2}
+  - {fileID: 11400000, guid: c0267a86c5add784b9f94b01f6480c13, type: 2}
+  - {fileID: 11400000, guid: 2c736265f512f2c4c96c3dffac27055f, type: 2}
+  Profiler:
+  - {fileID: 11400000, guid: 41a36331717c9f74a8337d10dcec9ef6, type: 2}
+  - {fileID: 11400000, guid: f1f4e0cb9a1f43340be4218318ee1a7c, type: 2}
+  - {fileID: 11400000, guid: c2284788417e09449a2d2351790ae3b5, type: 2}
+  - {fileID: 11400000, guid: 44614d514fe72c94caddbf1a4b256699, type: 2}
+  - {fileID: 11400000, guid: dca7919c6d278744cba6f79de63ddaa9, type: 2}
+  - {fileID: 11400000, guid: 7370b78c508eff34695bfd7cedd66ebb, type: 2}
+  - {fileID: 11400000, guid: d0cd8518bcf04e74ba375ea4e35407ea, type: 2}
+  - {fileID: 11400000, guid: 163276684e41bc147a983a5025029ac5, type: 2}
+  Auditor:
+  - {fileID: 11400000, guid: 4c040bbff14df8944aa5e463edf9c2d6, type: 2}
+  - {fileID: 11400000, guid: 4b77db7e3ee6b034987c754f277ef918, type: 2}
+  - {fileID: 11400000, guid: b230a9a7fa88a8c45ad99628c02d3b0e, type: 2}
+  - {fileID: 11400000, guid: 93a0f13f89d022a419c4e2f78f4d44af, type: 2}

@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af98875612e9feb41a71efb7c4365cf0, type: 3}
+  m_Name: ProfileWindowOverview
+  m_EditorClassIdentifier: 
+  module: 0
+  validationType: 0
+  title: 
+  mainText: 'A: Profiler modules. This is a list of all the modules you can profile
+    in your application. Use the drop-down menu at the top of this area to add and
+    remove modules from the window.
+
+    ---------
+
+    B: Profiler controls. Use
+    these controls to set which device to profile from and what kind of profiling
+    Unity should perform, navigate between frames, and start recording data.
+
+    ---------
+
+    C:
+    Frame charts. This area contains charts of each module the Profiler profiles.
+    This area is blank when you open the Profiler for the first time, and fills with
+    information when you start profiling your application.
+
+    ---------
+
+    D:
+    Module details panel. The information in this area of the window changes based
+    on the module you have selected. For instance, when you select the CPU Usage
+    Profiler module, it contains a detailed timeline and the option to switch to
+    a Hierarchy view. When you select the Rendering Profiler module, this area displays
+    a list of debugging information. This area is blank when you open the Profiler
+    for the first time, and fills with information when you start profiling your
+    application.'
+  helpImage: {fileID: 2800000, guid: 829c05ed8fde5874c845dca047efaba9, type: 3}
+  location:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 900
+    height: 800
+  thisPopUpType: GenericPopUp
+  nextPopUpDataPath: 
+  NextPopUpType: 
+  isSkippable: 1

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af98875612e9feb41a71efb7c4365cf0, type: 3}
+  m_Name: Recording
+  m_EditorClassIdentifier: 
+  module: 0
+  validationType: 0
+  title: 
+  mainText: 'Now that we have learned about the profiler window, it''s time to record
+    some data. To record data in the profiler we are going to select the white circle
+    button. It will turn red when it is ready to record. When the circle turns red,
+    press the play button above the game view window and you will see data start
+    to populate.
+
+
+    1. Press the white record button so that it turns red.
+
+    2.
+    Press the play button above game view.'
+  helpImage: {fileID: 0}
+  location:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 250
+    height: 300
+  thisPopUpType: Recording
+  nextPopUpDataPath: 
+  NextPopUpType: 
+  isSkippable: 0

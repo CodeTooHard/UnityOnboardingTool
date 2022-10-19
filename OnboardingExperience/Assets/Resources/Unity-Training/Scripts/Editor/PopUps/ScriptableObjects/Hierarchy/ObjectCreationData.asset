@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af98875612e9feb41a71efb7c4365cf0, type: 3}
+  m_Name: ObjectCreationData
+  m_EditorClassIdentifier: 
+  module: 0
+  validationType: 0
+  title: Gameobject Created!!!
+  mainText: "Congratulations!! You have created your first game object! Why don't
+    we give it a name? \n\nTo name a gameobject, right click it and select 'rename'
+    or left click it and press the f2 button on your keyboard."
+  helpImage: {fileID: 2800000, guid: a4e3e73a4020408489f24ad655867def, type: 3}
+  location:
+    serializedVersion: 2
+    x: 100
+    y: 200
+    width: 300
+    height: 400
+  thisPopUpType: ObjectCreatedPopUp
+  nextPopUpDataPath: Scripts/Editor/PopUps/ScriptableObjects/Hierarchy/CreatingShapesData
+  NextPopUpType: CreatingShapesPopUp
+  isSkippable: 0

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af98875612e9feb41a71efb7c4365cf0, type: 3}
+  m_Name: ViewingTheReport
+  m_EditorClassIdentifier: 
+  module: 0
+  validationType: 0
+  title: What does it mean?
+  mainText: "Once you have completed an auditor scan. You need to navigate to the
+    \"Code Issues\" section but clicking on the blue text next to \"Code Issues\".
+    This will take you to all of the audits for the code of your project.\n\nFrom
+    here we need to modify a couple settings. Under \"Filters\" we have some options.
+    \"Assembly\" controls which code the project is auditing. For this we want to
+    disable all code except the \"Assembly-CSharp\" assembly. This ensures we are
+    only testing our internal code. \n\n\"Area\" controls which types of issues are
+    being monitored. Typically we always monitor all areas but if you need a specific
+    area like for CPU testing, you can limit the warnings to just CPU areas.\n\nThe
+    only other setting we typically change is the \"Show\" setting. We want to checkmark
+    the critical issues component. Non-critical issues are typically not high enough
+    priority to warrant development time so unless we are ahead of schedule we want
+    to just focus on critical issues."
+  helpImage: {fileID: 0}
+  location:
+    serializedVersion: 2
+    x: 450
+    y: 0
+    width: 400
+    height: 450
+  thisPopUpType: GenericPopUp
+  isSkippable: 1

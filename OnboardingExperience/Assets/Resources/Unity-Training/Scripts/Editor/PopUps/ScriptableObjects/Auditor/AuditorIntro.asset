@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af98875612e9feb41a71efb7c4365cf0, type: 3}
+  m_Name: AuditorIntro
+  m_EditorClassIdentifier: 
+  module: 0
+  validationType: 0
+  title: I Need An Audit!
+  mainText: Project Auditor is a static analysis tool that analyzes assets, settings,
+    and scripts of the Unity project and produces a report containing information
+    useful to the development team on the project for optimizing the project and
+    fixing potential bugs or isues before they occur. QA mainly uses this as a reporting
+    tool to give to the development team as an assessment of possible project health.
+    Open the Auditor Tool by going to Window > Analysis > Auditor.
+  helpImage: {fileID: 2800000, guid: e9fb0dfea4a42e04fb28ca980bb2e69b, type: 3}
+  location:
+    serializedVersion: 2
+    x: 450
+    y: 50
+    width: 250
+    height: 300
+  thisPopUpType: GenericPopUp
+  isSkippable: 1

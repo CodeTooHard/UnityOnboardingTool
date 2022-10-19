@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af98875612e9feb41a71efb7c4365cf0, type: 3}
+  m_Name: ChangeResolutionData
+  m_EditorClassIdentifier: 
+  module: 0
+  validationType: 0
+  title: 
+  mainText: "While in Game view you can alter the preview resolution to test for
+    different screen sizes. The button above this window that says \"Free Aspect\"
+    can be clicked to display more resolutions. Click this box to view the options.
+    \n\nIf you are working with custom target resolutions you can click the white
+    \"+\" button to add a new target resolution. Try switching between a couple resolutions
+    and watch the Game view window."
+  helpImage: {fileID: 2800000, guid: 8ee9701ef8991e449b67e0b5f192a1bb, type: 3}
+  location:
+    serializedVersion: 2
+    x: 560
+    y: 116
+    width: 380
+    height: 275
+  thisPopUpType: GenericPopUp
+  nextPopUpDataPath: Scripts/Editor/PopUps/ScriptableObjects/Game/MaximizeViewData
+  NextPopUpType: GenericPopUp
+  isSkippable: 1

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<coverage version="1.0" date="2022-04-06_10-52-16" tag="">
+  <assembly name="Assembly-CSharp">
+    <class name="StarterAssets.StarterAssetsInputs" coveredlines="0" coverablelines="35" totallines="89" coveredbranches="0" totalbranches="0" />
+    <class name="StarterAssets.UICanvasControllerInput" coveredlines="0" coverablelines="12" totallines="33" coveredbranches="0" totalbranches="0" />
+    <class name="UIVirtualButton" coveredlines="0" coverablelines="15" totallines="39" coveredbranches="0" totalbranches="0" />
+    <class name="UIVirtualJoystick" coveredlines="0" coverablelines="60" totallines="114" coveredbranches="0" totalbranches="0" />
+    <class name="UIVirtualTouchZone" coveredlines="0" coverablelines="64" totallines="125" coveredbranches="0" totalbranches="0" />
+  </assembly>
+  <assembly name="Assembly-CSharp-Editor">
+    <class name="CreatingShapesPopUp" coveredlines="0" coverablelines="6" totallines="16" coveredbranches="0" totalbranches="0" />
+    <class name="HierarchyPopUp" coveredlines="0" coverablelines="13" totallines="53" coveredbranches="0" totalbranches="0" />
+    <class name="ObjectCreatedPopUp" coveredlines="0" coverablelines="15" totallines="41" coveredbranches="0" totalbranches="0" />
+    <class name="ParentingPopUp" coveredlines="0" coverablelines="6" totallines="18" coveredbranches="0" totalbranches="0" />
+    <class name="PopUp" coveredlines="0" coverablelines="52" totallines="83" coveredbranches="0" totalbranches="0" />
+    <class name="PopUpTemplate" coveredlines="0" coverablelines="1" totallines="24" coveredbranches="0" totalbranches="0" />
+    <class name="PositionExample" coveredlines="0" coverablelines="18" totallines="32" coveredbranches="0" totalbranches="0" />
+    <class name="TutorialStart" coveredlines="0" coverablelines="16" totallines="36" coveredbranches="0" totalbranches="0" />
+  </assembly>
+</coverage>

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af98875612e9feb41a71efb7c4365cf0, type: 3}
+  m_Name: RotatingObjectsData
+  m_EditorClassIdentifier: 
+  module: 0
+  validationType: 0
+  title: 
+  mainText: 'Next, let''s take a look at rotating objects. To rotate an object, we
+    can click on the object and then press the ''E'' key. This will change the arrows
+    into rings. Similiarly to the arrows, you can drage the rings to rotate the object
+    in that directions. If you want to go back to moving your object, press the ''W''
+    key.
+
+
+    Let''s try rotating your cube!'
+  helpImage: {fileID: 2800000, guid: 1033ece64e1aa924fa6b84d00abeda57, type: 3}
+  location:
+    serializedVersion: 2
+    x: 964
+    y: 560
+    width: 400
+    height: 225
+  thisPopUpType: RotatingObjectsPopUp
+  nextPopUpDataPath: Scripts/Editor/PopUps/ScriptableObjects/Scene/ScalingObjectsData
+  NextPopUpType: ScalingObjectsPopUp
+  isSkippable: 0

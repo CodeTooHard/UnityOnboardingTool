@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af98875612e9feb41a71efb7c4365cf0, type: 3}
+  m_Name: GameIntroData
+  m_EditorClassIdentifier: 
+  module: 0
+  validationType: 0
+  title: 
+  mainText: "Game View is the perspective that the user will see when they play the
+    application on their system. We can use game view to test out the game in the
+    editor. Note, playing a game in the editor does not always give the same results
+    as playing live so you always want to test the final build not in the editor.
+    Pressing the play button will also switch the view from scene view to game view.
+    \n\nSwitch between the scene and game view to see the differences."
+  helpImage: {fileID: 0}
+  location:
+    serializedVersion: 2
+    x: 560
+    y: 116
+    width: 385
+    height: 250
+  thisPopUpType: GenericPopUp
+  nextPopUpDataPath: Scripts/Editor/PopUps/ScriptableObjects/Game/ChangeResolutionData
+  NextPopUpType: GenericPopUp
+  isSkippable: 1
