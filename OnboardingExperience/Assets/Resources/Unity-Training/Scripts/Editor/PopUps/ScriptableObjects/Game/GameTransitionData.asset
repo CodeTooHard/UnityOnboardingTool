@@ -22,9 +22,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 560
     y: 116
-    width: 150
-    height: 150
+    width: 200
+    height: 200
   thisPopUpType: GenericPopUp
-  nextPopUpDataPath: Scripts/Editor/PopUps/ScriptableObjects/Game/GameIntroData
-  NextPopUpType: GenericPopUp
   isSkippable: 1

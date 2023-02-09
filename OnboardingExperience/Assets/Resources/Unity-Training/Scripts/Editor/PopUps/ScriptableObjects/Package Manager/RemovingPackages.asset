@@ -15,7 +15,7 @@ MonoBehaviour:
   module: 0
   validationType: 0
   title: 
-  mainText: To remove a package we simple need to click on a package in our project
+  mainText: To remove a package we simply need to click on a package in our project
     and in the bottom right corner, click the remove button. To do this make sure
     the "Packages:" tab says "In-Project" so we only see packages we have in our
     projects.
@@ -24,9 +24,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 200
-    height: 200
+    width: 300
+    height: 250
   thisPopUpType: GenericPopUp
-  nextPopUpDataPath: 
-  NextPopUpType: 
   isSkippable: 1

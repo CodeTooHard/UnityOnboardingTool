@@ -18,6 +18,7 @@ public abstract class PopUp : EditorWindow
 
     public virtual void InitializePopup() //Sets the data from the template scriptable object or returns an error if no template was provided
     {
+        
         if (templatePath != null)
         {
             template = Resources.Load<PopUpTemplate>(templatePath) as PopUpTemplate;
@@ -46,15 +47,14 @@ public abstract class PopUp : EditorWindow
         position = template.location;
         isSkippable = template.isSkippable;
         location = template.location;
+        GUI.color = Color.white;
+        GUI.contentColor = Color.white;
         //templatePath = template.nextPopUpDataPath;
     }
-    private void Update()
-    {
-        GUI.color = Color.white;
-    }
+
     private void OnInspectorUpdate()
     {
-        GUI.color = Color.white;
+        
         this.position = location;
         //ValidationCheck();
     }
@@ -95,10 +95,10 @@ public abstract class PopUp : EditorWindow
             }
             GUILayout.EndHorizontal();
         }
-        if (GUILayout.Button("Video Instruction"))
-        {
-            Application.OpenURL("www.unity.com");
-        }
+        //if (GUILayout.Button("Video Instruction"))
+        //{
+        //    Application.OpenURL("www.unity.com");
+        //}
     }
 
         public void SetPath(string path)
@@ -114,7 +114,7 @@ public abstract class PopUp : EditorWindow
     public virtual void NextWindow()
     {
 
-        PopUpManager.NextPopUp();
+        PopUpManager.CheckForReference();
     }
 
     public void ValidationCheck()

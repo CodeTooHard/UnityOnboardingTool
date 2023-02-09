@@ -14,14 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   module: 0
   validationType: 0
-  title: 
-  mainText: 
+  title: Running Your Build
+  mainText: 'To complete the build process, you can either click "Build" or "Build
+    and Run" to the left of this window. Build will allow you to select where you
+    want to build your project, and build and run does the same but will also automatically
+    launch your solution for you. Otherwise, you will have to navigate to the folder
+    you chose to build in and manually launch the .exe file.
+
+
+    Reminder: It is
+    good practice to create and name a folder "Builds" to store builds in for your
+    project.'
   helpImage: {fileID: 0}
   location:
     serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  thisPopUpType: 
+    x: 800
+    y: 500
+    width: 250
+    height: 250
+  thisPopUpType: GenericPopUp
   isSkippable: 1

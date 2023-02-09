@@ -37,8 +37,6 @@ MonoBehaviour:
     x: 1890
     y: 835
     width: 510
-    height: 480
+    height: 550
   thisPopUpType: GenericPopUp
-  nextPopUpDataPath: Scripts/Editor/PopUps/ScriptableObjects/Inspector/AddComponentsData
-  NextPopUpType: AddComponentsPopUp
   isSkippable: 1

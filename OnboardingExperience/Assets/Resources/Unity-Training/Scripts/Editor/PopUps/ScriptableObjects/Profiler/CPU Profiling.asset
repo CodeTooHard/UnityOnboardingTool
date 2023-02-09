@@ -34,11 +34,9 @@ MonoBehaviour:
   helpImage: {fileID: 0}
   location:
     serializedVersion: 2
-    x: 0
-    y: 0
+    x: 680
+    y: 250
     width: 300
     height: 450
   thisPopUpType: CPUProfiling
-  nextPopUpDataPath: 
-  NextPopUpType: 
   isSkippable: 1

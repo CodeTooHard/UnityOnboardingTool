@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af98875612e9feb41a71efb7c4365cf0, type: 3}
+  m_Name: FrameCharts
+  m_EditorClassIdentifier: 
+  module: 0
+  validationType: 0
+  title: Frame Timeline Chart
+  mainText: "Click the play button again to exit play mode. The upper part of the
+    Profiler window displays performance data over time on a frame-by-frame basis.
+    When you run your application, the Profiler records data for each frame. By default,
+    the Profiler window displays the history of the last 300 frames it profiles.
+    You can increase the number of frames the Profiler profiles in the Preferences
+    window, up to a maximum of 2,000.\r You can use the scroll wheel to zoom in/out\n\r\nWhen
+    you click in the Profiler frame chart area of the Profiler window, a white line
+    appears, which highlights one frame of your application. When you click on a
+    frame, Unity displays more details about the frame in the Module Details pane
+    in the bottom half of the Profiler window. The type of detail in this window
+    changes depending on which Profile module you select"
+  helpImage: {fileID: 2800000, guid: 343bc58e5de3dd444a4aa74515e9a816, type: 3}
+  location:
+    serializedVersion: 2
+    x: 680
+    y: 500
+    width: 400
+    height: 650
+  thisPopUpType: GenericPopUp
+  isSkippable: 1

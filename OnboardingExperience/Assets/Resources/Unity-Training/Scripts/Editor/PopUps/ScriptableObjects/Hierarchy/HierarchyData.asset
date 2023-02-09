@@ -16,10 +16,11 @@ MonoBehaviour:
   validationType: 0
   title: Hierarchy Introduction
   mainText: "This window behind me is called 'The Hierarchy'. It displays all of
-    the active and inactive objects currently in the scene. By default, a new scene
-    will have 2 gameobjects: the Directional Light and the Main Camera. You can even
-    create new objects here! Give it a try. \n\nTo create a new object, right click
-    the hierarchy, and click 'Create Empty'"
+    the active and inactive gameobjects currently in the scene. Gameobjects are all
+    of the things running in scene like cameras, trees, lights, characters, and even
+    UI. \n\nBy default, a new scene will have 2 gameobjects: the Directional Light
+    and the Main Camera. You can even create new objects here! Give it a try. \n\nTo
+    create a new object, right click the hierarchy, and click 'Create Empty'"
   helpImage: {fileID: 2800000, guid: 8ff61b3381beb5d4697dc1f607aa3e4c, type: 3}
   location:
     serializedVersion: 2
@@ -28,6 +29,4 @@ MonoBehaviour:
     width: 300
     height: 350
   thisPopUpType: HierarchyPopUp
-  nextPopUpDataPath: Scripts/Editor/PopUps/ScriptableObjects/Hierarchy/ObjectCreationData
-  NextPopUpType: ObjectCreatedPopUp
   isSkippable: 0

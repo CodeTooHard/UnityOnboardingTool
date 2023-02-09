@@ -36,8 +36,6 @@ MonoBehaviour:
     x: 1000
     y: 80
     width: 470
-    height: 275
+    height: 425
   thisPopUpType: GenericPopUp
-  nextPopUpDataPath: Scripts/Editor/PopUps/ScriptableObjects/Game/GameControlsData
-  NextPopUpType: 
   isSkippable: 1

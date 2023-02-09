@@ -19,11 +19,11 @@ MonoBehaviour:
     to make nested or parented objects. Much like how you would drag a file into
     a folder on your desktop. You can use this to organize the Hierarchy in the same
     way as a folder by dragging objects onto a parent and then clicking the down
-    arrow to minimize the list of objects. Certain transformations done to a parent
-    object like scale and movement will often be shared to it's children. We will
-    learn how to manipulate objects later, for now, making the \"Main Camera\" a
-    parented object by dragging all of the other objects in the Hierarchy onto the
-    Main Camera. \n\nHint: When you click the down arrow next to \"Main Camera\"
+    arrow to minimize the list of objects. \n\nCertain transformations done to a
+    parent object like scale and movement will often be shared to it's children.
+    We will learn how to manipulate objects later, for now, making the \"Main Camera\"
+    a parented object by dragging all of the other objects in the Hierarchy onto
+    the Main Camera. \n\nHint: When you click the down arrow next to \"Main Camera\"
     to close the list, you should ONLY see the Main Camera in the Hierarchy. You
     should have 3 objects under the Main Camera in this way. Your renamed object,
     the cube and the directional light."
@@ -33,8 +33,6 @@ MonoBehaviour:
     x: 250
     y: 50
     width: 250
-    height: 600
+    height: 550
   thisPopUpType: ParentingPopUp
-  nextPopUpDataPath: Scripts/Editor/PopUps/ScriptableObjects/Hierarchy/HierarchySearchData
-  NextPopUpType: GenericPopUp
   isSkippable: 0

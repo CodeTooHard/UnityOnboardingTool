@@ -15,7 +15,7 @@ MonoBehaviour:
   module: 0
   validationType: 0
   title: 
-  mainText: 'Now that we have learned about the profiler window, it''s time to record
+  mainText: 'Now that we have learned about profiler modules, it''s time to record
     some data. To record data in the profiler we are going to select the white circle
     button. It will turn red when it is ready to record. When the circle turns red,
     press the play button above the game view window and you will see data start
@@ -25,15 +25,14 @@ MonoBehaviour:
     1. Press the white record button so that it turns red.
 
     2.
-    Press the play button above game view.'
+    Press the play button above game view. It is located in the middle top of the
+    unity window.'
   helpImage: {fileID: 0}
   location:
     serializedVersion: 2
-    x: 0
-    y: 0
+    x: 680
+    y: 250
     width: 250
-    height: 300
+    height: 315
   thisPopUpType: Recording
-  nextPopUpDataPath: 
-  NextPopUpType: 
   isSkippable: 0

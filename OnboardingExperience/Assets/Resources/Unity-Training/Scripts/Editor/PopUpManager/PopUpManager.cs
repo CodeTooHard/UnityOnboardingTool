@@ -24,6 +24,12 @@ public class PopUpManager : Editor
     private static int currentPopUpIndex;
     private static int currentSectionIndex;
 
+
+
+    private void Awake()
+    {
+
+    }
     //Here I want to be able to create an editor window based on the imported information in awake and call this from any other class with PopUpManager.StartTutorial()
     public static void StartTutorial()
     {
@@ -79,6 +85,26 @@ public class PopUpManager : Editor
         startingPopUp.Show(); // When we have an instance and a completed pop-up initialized, we will show it to the user.
     }
 
+    public static void  CheckForReference()
+    {
+        Debug.Log("Test");
+        if (currentArray == null)
+        {
+            Debug.LogWarning("Reloaded Arrays!");
+            InitializePopUpArrays();
+            currentPopUpIndex = data.lastOpenedPopUpIndex;
+            currentSectionIndex = data.lastOpenedSectionIndex;
+            currentArray = popUpSections[currentSectionIndex];
+            currentPopUp = EditorWindow.GetWindow(System.Type.GetType(popUpSections[currentSectionIndex][currentPopUpIndex].thisPopUpType)) as PopUp;
+            NextPopUp();
+
+
+        } else
+        {
+            NextPopUp();
+            
+        }
+    }
     public static void InitializePopUpArrays()
     {
         data = Resources.Load("Unity-Training/Scripts/Editor/PopUpManager/TutorialManager") as PopUpManagerData;
@@ -96,8 +122,12 @@ public class PopUpManager : Editor
 
     public static void NextPopUp()
     {
+        //TODO FIX RELOAD BUG
+        data.lastOpenedPopUpIndex = currentPopUpIndex;
+        data.lastOpenedSectionIndex = currentSectionIndex;
         //Below we are prepping the array indexes to get the correct section and pop-up to load next.
         currentPopUpIndex += 1;
+        
         if (currentPopUpIndex > currentArray.Length - 1)
         {
             if (currentSectionIndex > popUpSections.Length - 1)
@@ -115,8 +145,12 @@ public class PopUpManager : Editor
         PopUp nextPopUp;
         nextPopUp = EditorWindow.CreateInstance(System.Type.GetType(popUpSections[currentSectionIndex][currentPopUpIndex].thisPopUpType)) as PopUp;
 
-        //Close the current pop-up since we no longer need it and make the pop-up we are going to, the new current.
-        currentPopUp.Close();
+        if (currentPopUp != null)
+        {
+            //Close the current pop-up since we no longer need it and make the pop-up we are going to, the new current.
+            currentPopUp.Close();
+        }
+        
         currentPopUp = nextPopUp;
 
         //Set up the data in the popup using the correct pop-up template and show the pop-up

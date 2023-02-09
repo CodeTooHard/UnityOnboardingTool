@@ -15,17 +15,19 @@ MonoBehaviour:
   module: 0
   validationType: 0
   title: Creating a Cube
-  mainText: Now that we can create gameobjects, let's create something we can actually
-    see. A cube! To do this, right click in the hierarchy or click the white plus
-    sign above this window, go to 3D object and select "Cube". This will allow you
-    to see a cube in the hierarchy and you can also see it created a cube in the
-    scene window to the right of this box.
+  mainText: "Now that we can create gameobjects, let's create something we can actually
+    see. Unity comes with templates that allows us to create gameobjects that already
+    come with the data and components needed to make basic things. Lets create one
+    ourselves!A cube! \n\nTo do this, right click in the hierarchy or click the white
+    plus sign above this window, go to 3D object and select \"Cube\". This will allow
+    you to see a cube in the hierarchy and you can also see it created a cube in
+    the scene window to the right of this box."
   helpImage: {fileID: 2800000, guid: fac9c24bfee6287478335ffd490378dc, type: 3}
   location:
     serializedVersion: 2
     x: 0
     y: 125
-    width: 250
-    height: 350
+    width: 300
+    height: 500
   thisPopUpType: CreatingShapesPopUp
   isSkippable: 0

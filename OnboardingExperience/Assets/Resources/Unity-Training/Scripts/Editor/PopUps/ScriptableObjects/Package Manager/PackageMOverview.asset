@@ -34,11 +34,11 @@ MonoBehaviour:
     warning messages, the number of Asset Store packages available, and a link to
     load more Asset Store packages.\r\n\r\n(J) The reload  drop-down menu, which
     lets you force Package Manager to reload or resolve the packages in your project.\r"
-  helpImage: {fileID: 2800000, guid: 7b63d139d0164904ca625d671d512b02, type: 3}
+  helpImage: {fileID: 2800000, guid: 20055d5c944f4334daeaa3ec17dc9b0b, type: 3}
   location:
     serializedVersion: 2
     x: 0
-    y: 0
+    y: 100
     width: 900
     height: 1000
   thisPopUpType: GenericPopUp

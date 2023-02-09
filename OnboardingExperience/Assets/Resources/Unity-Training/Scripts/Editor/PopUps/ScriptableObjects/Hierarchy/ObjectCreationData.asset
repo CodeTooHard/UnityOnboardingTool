@@ -15,9 +15,14 @@ MonoBehaviour:
   module: 0
   validationType: 0
   title: Gameobject Created!!!
-  mainText: "Congratulations!! You have created your first game object! Why don't
-    we give it a name? \n\nTo name a gameobject, right click it and select 'rename'
-    or left click it and press the f2 button on your keyboard."
+  mainText: "Congratulations!! You have created your first game object! You can think
+    of an empty game object like a bucket for data. We can add data through components
+    (which we will talk about later) to turn the game object into many different
+    things. We can add models, scripts, lights, and animations to these game objects
+    to turn them into anything but first, they start as empty buckets of data like
+    we just created.\n\nWhy don't we give it a name? \n\nTo name a gameobject, right
+    click it and select 'rename' or left click it and press the f2 button on your
+    keyboard."
   helpImage: {fileID: 2800000, guid: a4e3e73a4020408489f24ad655867def, type: 3}
   location:
     serializedVersion: 2
@@ -26,6 +31,4 @@ MonoBehaviour:
     width: 300
     height: 400
   thisPopUpType: ObjectCreatedPopUp
-  nextPopUpDataPath: Scripts/Editor/PopUps/ScriptableObjects/Hierarchy/CreatingShapesData
-  NextPopUpType: CreatingShapesPopUp
   isSkippable: 0

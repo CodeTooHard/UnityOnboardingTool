@@ -14,4 +14,6 @@ public class PopUpManagerData : ScriptableObject
     public PopUpTemplate[] PackageManager;
     public PopUpTemplate[] Profiler;
     public PopUpTemplate[] Auditor;
+    public int lastOpenedPopUpIndex;
+    public int lastOpenedSectionIndex;
 }

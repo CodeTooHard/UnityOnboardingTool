@@ -46,9 +46,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 350
-    height: 650
+    width: 375
+    height: 600
   thisPopUpType: GenericPopUp
-  nextPopUpDataPath: 
-  NextPopUpType: 
   isSkippable: 1

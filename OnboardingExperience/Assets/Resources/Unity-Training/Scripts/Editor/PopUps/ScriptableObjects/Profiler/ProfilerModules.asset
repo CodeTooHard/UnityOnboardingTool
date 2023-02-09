@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af98875612e9feb41a71efb7c4365cf0, type: 3}
+  m_Name: ProfilerModules
+  m_EditorClassIdentifier: 
+  module: 0
+  validationType: 0
+  title: Profiler Modules
+  mainText: "This section of the profiler are where the Modules are shown. Modules
+    are the different categories the profiler can record metrics for. You can add
+    and remove modules using the arrow button to create a dropdown list. The more
+    important modules we use for QA are:\n\n- CPU: Displays an overview of where
+    your application spends the most time, in areas such as physics, scripts, animation,
+    and garbage collection. This module is always active, even if you close it\n\n-
+    GPU: Displays information related to graphics processing. By default this module
+    is not active, because it has a high overhead. Therefore, you should only turn
+    on GPU gathering when it is specifcially the GPU data you are looking to record
+    and then turn it off otherwise.\n\nRendering: Displays information on how Unity
+    renders graphics in your application, including information on static and dynamic
+    batching\r, SetPass and Draw calls, triangles, and vertices.\n\n-Memory: Displays
+    information on how Unity allocates memory in your application. This is particularly
+    useful for seeing how scripting allocations (GC.Alloc) lead up to garbage collection,
+    or how your application\u2019s Asset memory usage trends over time.\n\n- UI:
+    Displays information about how Unity handles UI batching for your application,
+    including why and how Unity batches items"
+  helpImage: {fileID: 0}
+  location:
+    serializedVersion: 2
+    x: 680
+    y: 250
+    width: 250
+    height: 685
+  thisPopUpType: GenericPopUp
+  isSkippable: 1

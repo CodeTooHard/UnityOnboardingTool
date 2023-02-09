@@ -15,15 +15,24 @@ MonoBehaviour:
   module: 0
   validationType: 0
   title: 
-  mainText: 
-  helpImage: {fileID: 0}
+  mainText: "To help diagnose performance issues, see the bottom half the profile
+    and where it says \"Timeline\", change this dropdown to \"Hierarchy\". After
+    that, click inside the profiler window to create another white line on a frame.\n\nIn
+    this view for the CPU, you will want to expand the dropdown named \"PlayerLoop\"
+    this is all the scripts running in playmode. This allows you to see how much
+    script utilization each script is currently drawing. It also displays additional
+    infomation like cached memory allocated, calls per frame, and how much time it
+    took execute the script. \n\nEach module gives you different details to inspect.
+    Click on each module and explore the information it gives you. When reporting
+    performance issues regarding one of these modules you will want to use this information
+    attached to the bug report. Be on the look at for any abnormal spikes in the
+    line graph view and investigate them further by using the hierarchy view."
+  helpImage: {fileID: 2800000, guid: b2cb56f5e4a83f34abaf0cacf6883535, type: 3}
   location:
     serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
+    x: 600
+    y: 700
+    width: 450
+    height: 650
   thisPopUpType: GenericPopUp
-  nextPopUpDataPath: 
-  NextPopUpType: 
   isSkippable: 1

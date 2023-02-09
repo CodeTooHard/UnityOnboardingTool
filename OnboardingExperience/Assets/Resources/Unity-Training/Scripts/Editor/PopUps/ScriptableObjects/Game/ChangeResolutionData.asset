@@ -27,8 +27,6 @@ MonoBehaviour:
     x: 560
     y: 116
     width: 380
-    height: 275
+    height: 750
   thisPopUpType: GenericPopUp
-  nextPopUpDataPath: Scripts/Editor/PopUps/ScriptableObjects/Game/MaximizeViewData
-  NextPopUpType: GenericPopUp
   isSkippable: 1
